@@ -1,0 +1,4 @@
+waybar-module-pacman-updates-git
+waybar-module-pacman-updates-git-debug
+yay
+yay-debug

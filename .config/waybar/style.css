@@ -1,0 +1,166 @@
+* {
+    font-family: "JetBrains Mono", "Font Awesome 6 Free";
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(26, 27, 38, 0.9);
+    border-bottom: 3px solid rgba(51, 204, 255, 0.5);
+    color: #c0caf5;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background: transparent;
+    color: #c0caf5;
+    border-bottom: 3px solid transparent;
+    border-radius: 0;
+}
+
+#workspaces button:hover {
+    background: rgba(36, 40, 59, 0.6);
+    border-bottom: 3px solid #33ccff;
+}
+
+#workspaces button.active {
+    background: rgba(51, 204, 255, 0.2);
+    border-bottom: 3px solid #33ccff;
+    color: #33ccff;
+}
+
+#workspaces button.urgent {
+    background-color: #f7768e;
+    color: #1a1b26;
+}
+
+#window {
+    margin: 0 10px;
+    color: #c0caf5;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#network,
+#pulseaudio,
+#tray,
+#mpris,
+#custom-weather {
+    padding: 0 10px;
+    margin: 0 3px;
+    background: rgba(36, 40, 59, 0.6);
+    border-radius: 5px;
+}
+
+#clock {
+    background-color: rgba(125, 207, 255, 0.2);
+    color: #7dcfff;
+}
+
+#battery {
+    background-color: rgba(158, 206, 106, 0.2);
+    color: #9ece6a;
+}
+
+#battery.charging, #battery.plugged {
+    color: #9ece6a;
+    background-color: rgba(158, 206, 106, 0.2);
+}
+
+#battery.critical:not(.charging) {
+    background-color: rgba(247, 118, 142, 0.2);
+    color: #f7768e;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#cpu {
+    background-color: rgba(255, 158, 100, 0.2);
+    color: #ff9e64;
+}
+
+#memory {
+    background-color: rgba(187, 154, 247, 0.2);
+    color: #bb9af7;
+}
+
+#disk {
+    background-color: rgba(224, 175, 104, 0.2);
+    color: #e0af68;
+}
+
+#network {
+    background-color: rgba(125, 207, 255, 0.2);
+    color: #7dcfff;
+}
+
+#network.disconnected {
+    background-color: rgba(247, 118, 142, 0.2);
+    color: #f7768e;
+}
+
+#custom-vpn {
+    background-color: rgba(158, 206, 106, 0.2);
+    color: #9ece6a;
+}
+
+#custom-vpn.disconnected {
+    background-color: rgba(247, 118, 142, 0.2);
+    color: #f7768e;
+}
+#pulseaudio {
+    background-color: rgba(255, 158, 100, 0.2);
+    color: #ff9e64;
+}
+
+#pulseaudio.muted {
+    background-color: rgba(90, 90, 90, 0.2);
+    color: #565f89;
+}
+
+#temperature {
+    background-color: rgba(158, 206, 106, 0.2);
+    color: #9ece6a;
+}
+
+#temperature.critical {
+    background-color: rgba(247, 118, 142, 0.2);
+    color: #f7768e;
+}
+
+#mpris {
+    background-color: rgba(187, 154, 247, 0.2);
+    color: #bb9af7;
+}
+
+@keyframes blink {
+    to {
+        background-color: rgba(247, 118, 142, 0.4);
+        color: #ffffff;
+    }
+}
+
+#tray {
+    background-color: rgba(36, 40, 59, 0.6);
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+}

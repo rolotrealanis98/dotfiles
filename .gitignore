@@ -1,0 +1,17 @@
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+
+# Private files
+secrets/
+private/
+*.private
+
+# Cache and history
+.cache/
+.history
+
+# MacOS
+.DS_Store
