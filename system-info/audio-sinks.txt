@@ -1,4 +1,4 @@
-Sink #61
+Sink #62
 	State: SUSPENDED
 	Name: alsa_output.pci-0000_03_00.1.hdmi-stereo-extra3
 	Description: Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 4)
@@ -14,7 +14,7 @@ Sink #61
 	Latency: 0 usec, configured 0 usec
 	Flags: HARDWARE DECIBEL_VOLUME LATENCY SET_FORMATS 
 	Properties:
-		alsa.card = "4"
+		alsa.card = "3"
 		alsa.card_name = "HDA ATI HDMI"
 		alsa.class = "generic"
 		alsa.components = "HDA:1002aa01,00aa0100,00100800"
@@ -31,8 +31,8 @@ Sink #61
 		alsa.sync.id = "00000000:00000000:00000000:00000000"
 		api.alsa.card.longname = "HDA ATI HDMI at 0x76a20000 irq 335"
 		api.alsa.card.name = "HDA ATI HDMI"
-		api.alsa.path = "hdmi:4,3"
-		api.alsa.pcm.card = "4"
+		api.alsa.path = "hdmi:3,3"
+		api.alsa.pcm.card = "3"
 		api.alsa.pcm.stream = "playback"
 		audio.channels = "2"
 		audio.position = "FL,FR"
@@ -61,37 +61,37 @@ Sink #61
 		node.driver = "true"
 		node.loop.name = "data-loop.0"
 		library.name = "audioconvert/libspa-audioconvert"
-		object.id = "61"
-		object.serial = "61"
+		object.id = "62"
+		object.serial = "62"
 		api.acp.auto-port = "false"
 		api.acp.auto-profile = "false"
-		api.alsa.card = "4"
+		api.alsa.card = "3"
 		api.alsa.split-enable = "true"
 		api.alsa.use-acp = "true"
-		api.dbus.ReserveDevice1 = "Audio4"
+		api.dbus.ReserveDevice1 = "Audio3"
 		api.dbus.ReserveDevice1.Priority = "-20"
 		device.bus = "pci"
 		device.bus_path = "pci-0000:03:00.1"
 		device.enum.api = "udev"
 		device.name = "alsa_card.pci-0000_03_00.1"
 		device.nick = "HDA ATI HDMI"
-		device.plugged.usec = "6612114"
+		device.plugged.usec = "6550977"
 		device.product.id = "0xab28"
 		device.product.name = "Navi 21/23 HDMI/DP Audio Controller"
 		device.subsystem = "sound"
-		sysfs.path = "/devices/pci0000:00/0000:00:01.0/0000:01:00.0/0000:02:00.0/0000:03:00.1/sound/card4"
+		sysfs.path = "/devices/pci0000:00/0000:00:01.0/0000:01:00.0/0000:02:00.0/0000:03:00.1/sound/card3"
 		device.vendor.id = "0x1002"
 		device.vendor.name = "Advanced Micro Devices, Inc. [AMD/ATI]"
-		spa.object.id = "10"
-		device.string = "4"
+		spa.object.id = "8"
+		device.string = "3"
 	Ports:
 		hdmi-output-3: HDMI / DisplayPort 4 (type: HDMI, priority: 5600, availability group: Legacy 4, available)
 	Active Port: hdmi-output-3
 	Formats:
 		pcm
 
-Sink #62
-	State: RUNNING
+Sink #63
+	State: SUSPENDED
 	Name: alsa_output.usb-Other_World_Computing_OWC_Thunderbolt_3_Audio_Device-00.analog-stereo
 	Description: OWC Thunderbolt 3 Audio Device Analog Stereo
 	Driver: PipeWire
@@ -106,7 +106,7 @@ Sink #62
 	Latency: 0 usec, configured 0 usec
 	Flags: HARDWARE DECIBEL_VOLUME LATENCY 
 	Properties:
-		alsa.card = "2"
+		alsa.card = "4"
 		alsa.card_name = "OWC Thunderbolt 3 Audio Device"
 		alsa.class = "generic"
 		alsa.components = "USB1e91:4001"
@@ -123,8 +123,8 @@ Sink #62
 		alsa.sync.id = "00000000:00000000:00000000:00000000"
 		api.alsa.card.longname = "Other World Computing OWC Thunderbolt 3 Audio Device at usb-0000:16:00.0-4, ful"
 		api.alsa.card.name = "OWC Thunderbolt 3 Audio Device"
-		api.alsa.path = "front:2"
-		api.alsa.pcm.card = "2"
+		api.alsa.path = "front:4"
+		api.alsa.pcm.card = "4"
 		api.alsa.pcm.stream = "playback"
 		audio.channels = "2"
 		audio.position = "FL,FR"
@@ -153,17 +153,13 @@ Sink #62
 		node.loop.name = "data-loop.0"
 		library.name = "audioconvert/libspa-audioconvert"
 		object.id = "34"
-		object.serial = "62"
-		node.max-latency = "16384/48000"
-		api.alsa.period-size = "512"
-		api.alsa.period-num = "64"
-		api.alsa.headroom = "512"
+		object.serial = "63"
 		api.acp.auto-port = "false"
 		api.acp.auto-profile = "false"
-		api.alsa.card = "2"
+		api.alsa.card = "4"
 		api.alsa.split-enable = "true"
 		api.alsa.use-acp = "true"
-		api.dbus.ReserveDevice1 = "Audio2"
+		api.dbus.ReserveDevice1 = "Audio4"
 		api.dbus.ReserveDevice1.Priority = "-20"
 		device.bus = "usb"
 		device.bus-id = "usb-Other_World_Computing_OWC_Thunderbolt_3_Audio_Device-00"
@@ -171,16 +167,16 @@ Sink #62
 		device.enum.api = "udev"
 		device.name = "alsa_card.usb-Other_World_Computing_OWC_Thunderbolt_3_Audio_Device-00"
 		device.nick = "OWC Thunderbolt 3 Audio Device"
-		device.plugged.usec = "6621178"
+		device.plugged.usec = "6687544"
 		device.product.id = "0x4001"
 		device.product.name = "OWC Thunderbolt 3 Audio Device"
 		device.serial = "Other_World_Computing_OWC_Thunderbolt_3_Audio_Device"
 		device.subsystem = "sound"
-		sysfs.path = "/devices/pci0000:00/0000:00:1c.4/0000:0a:00.0/0000:0b:01.0/0000:0d:00.0/0000:0e:03.0/0000:14:00.0/0000:15:00.0/0000:16:00.0/usb3/3-4/3-4:1.0/sound/card2"
+		sysfs.path = "/devices/pci0000:00/0000:00:1c.4/0000:0a:00.0/0000:0b:01.0/0000:0d:00.0/0000:0e:03.0/0000:14:00.0/0000:15:00.0/0000:16:00.0/usb3/3-4/3-4:1.0/sound/card4"
 		device.vendor.id = "0x1e91"
 		device.vendor.name = "Other World Computing"
-		spa.object.id = "6"
-		device.string = "2"
+		spa.object.id = "10"
+		device.string = "4"
 	Ports:
 		analog-output: Analog Output (type: Analog, priority: 9900, availability unknown)
 	Active Port: analog-output

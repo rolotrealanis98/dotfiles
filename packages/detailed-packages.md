@@ -1,5 +1,5 @@
 # Arch Linux Package List
-# Generated on Tue Jul 15 12:12:52 PM EDT 2025
+# Generated on Tue Jul 15 01:05:08 PM EDT 2025
 
 ## Explicitly Installed Packages
 
@@ -11,7 +11,9 @@
 - git: the fast distributed version control system
 - glfw: A free, open source, portable framework for graphical application development
 - grim: Screenshot utility for Wayland
+- htop: Interactive process viewer
 - hyprland: a highly customizable dynamic tiling Wayland compositor
+- hyprpaper: a blazing fast wayland wallpaper utility with IPC controls
 - keyd: A key remapping daemon for linux
 - kitty: A modern, hackable, featureful, OpenGL-based terminal emulator
 - linux: The Linux kernel and modules
@@ -41,6 +43,7 @@
 - ttf-jetbrains-mono-nerd: Patched font JetBrains Mono from nerd fonts library
 - waybar: Highly customizable Wayland bar for Sway and Wlroots based compositors
 - waybar-module-pacman-updates-git: Waybar module for Arch to show system updates available
+- waypaper: GUI wallpaper setter for Wayland and Xorg window managers. It works as a frontend for popular wallpaper backends like swaybg, swww, wallutils, hyprpaper and feh.
 - wireplumber: Session / policy manager implementation for PipeWire
 - wl-clipboard: Command-line copy/paste utilities for Wayland
 - wofi: launcher for wlroots-based wayland compositors

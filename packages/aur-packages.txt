@@ -1,4 +1,7 @@
+python-imageio-ffmpeg
+python-screeninfo
 waybar-module-pacman-updates-git
 waybar-module-pacman-updates-git-debug
+waypaper
 yay
 yay-debug

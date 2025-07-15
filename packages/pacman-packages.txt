@@ -6,7 +6,9 @@ firefox
 git
 glfw
 grim
+htop
 hyprland
+hyprpaper
 keyd
 kitty
 linux
@@ -36,6 +38,7 @@ ttf-jetbrains-mono
 ttf-jetbrains-mono-nerd
 waybar
 waybar-module-pacman-updates-git
+waypaper
 wireplumber
 wl-clipboard
 wofi
