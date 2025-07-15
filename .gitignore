@@ -8,6 +8,10 @@
 secrets/
 private/
 *.private
+.env
+
+# Machine-specific configs
+machine-specific/
 
 # Cache and history
 .cache/

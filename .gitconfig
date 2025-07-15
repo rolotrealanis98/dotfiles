@@ -1,2 +1,5 @@
 [core]
 	editor = nano
+[user]
+	email = rolotrealanis@gmail.com
+	name = Rolando Trevino

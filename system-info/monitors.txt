@@ -1,0 +1,45 @@
+Monitor DP-3 (ID 0):
+	3840x2160@143.99899 at 0x0
+	description: LG Electronics LG ULTRAFINE 303NTDV4N746
+	make: LG Electronics
+	model: LG ULTRAFINE
+	serial: 303NTDV4N746
+	active workspace: 1 (1)
+	special workspace: 0 ()
+	reserved: 0 35 0 0
+	scale: 1.00
+	transform: 0
+	focused: yes
+	dpmsStatus: 1
+	vrr: false
+	solitary: 0
+	activelyTearing: false
+	directScanoutTo: 0
+	disabled: false
+	currentFormat: XRGB8888
+	mirrorOf: none
+	availableModes: 3840x2160@144.00Hz 3840x2160@60.00Hz 3840x2160@94.98Hz 2560x1440@143.97Hz 1920x1200@144.00Hz 1920x1080@143.98Hz 1920x1080@120.00Hz 1920x1080@119.88Hz 1920x1080@60.00Hz 1920x1080@60.00Hz 1920x1080@59.94Hz 1600x1200@144.00Hz 1680x1050@144.00Hz 1280x1024@75.03Hz 1440x900@144.00Hz 1280x800@144.00Hz 1280x720@60.00Hz 1280x720@59.94Hz 1024x768@60.00Hz 800x600@60.32Hz 720x480@60.00Hz 720x480@59.94Hz 640x480@60.00Hz 640x480@59.94Hz 640x480@59.94Hz 
+
+Monitor HDMI-A-1 (ID 1):
+	2560x1600@59.99700 at 3840x0
+	description: YCT Innoview 0000000000001
+	make: YCT
+	model: Innoview
+	serial: 0000000000001
+	active workspace: 2 (2)
+	special workspace: 0 ()
+	reserved: 0 35 0 0
+	scale: 1.60
+	transform: 0
+	focused: no
+	dpmsStatus: 1
+	vrr: false
+	solitary: 0
+	activelyTearing: false
+	directScanoutTo: 0
+	disabled: false
+	currentFormat: XRGB8888
+	mirrorOf: none
+	availableModes: 2560x1600@60.00Hz 2560x1600@120.00Hz 1920x1200@60.00Hz 1920x1080@240.00Hz 1920x1080@180.00Hz 1920x1080@120.00Hz 1920x1080@119.88Hz 1920x1080@60.00Hz 1920x1080@60.00Hz 1920x1080@59.94Hz 1600x1200@60.00Hz 1680x1050@59.88Hz 1600x900@60.00Hz 1280x1024@60.02Hz 1440x900@59.90Hz 1280x800@59.91Hz 1280x720@60.00Hz 1280x720@60.00Hz 1280x720@59.94Hz 1024x768@60.00Hz 800x600@60.32Hz 720x480@60.00Hz 720x480@60.00Hz 720x480@59.94Hz 720x480@59.94Hz 640x480@60.00Hz 640x480@59.94Hz 640x480@59.94Hz 
+
+

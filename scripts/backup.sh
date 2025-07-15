@@ -47,6 +47,7 @@ home_configs=(
     ".xinitrc"
     ".Xresources"
     ".profile"
+    ".aliases"
 )
 
 for config in "${home_configs[@]}"; do
@@ -71,7 +72,14 @@ fi
 # Backup systemd user services
 if [ -d "$HOME/.config/systemd/user" ]; then
     echo "Backing up systemd user services..."
+    mkdir -p "$DOTFILES_DIR/.config/systemd"
     cp -r "$HOME/.config/systemd/user" "$DOTFILES_DIR/.config/systemd/"
+fi
+
+# Capture system information
+if [ -f "$DOTFILES_DIR/scripts/system-info.sh" ]; then
+    echo "Capturing system information..."
+    "$DOTFILES_DIR/scripts/system-info.sh"
 fi
 
 echo "Backup complete!"

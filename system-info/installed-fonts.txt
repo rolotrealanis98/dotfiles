@@ -1,0 +1,24 @@
+Adwaita Mono
+Adwaita Sans
+Font Awesome 6 Brands,Font Awesome 6 Brands Regular
+Font Awesome 6 Free,Font Awesome 6 Free Regular
+Font Awesome 6 Free,Font Awesome 6 Free Solid
+Font Awesome v4 Compatibility,Font Awesome v4 Compatibility Regular
+FreeMono
+FreeSans
+FreeSerif
+JetBrains Mono
+JetBrains Mono,JetBrains Mono ExtraBold
+JetBrains Mono,JetBrains Mono ExtraLight
+JetBrains Mono,JetBrains Mono Light
+JetBrains Mono,JetBrains Mono Medium
+JetBrains Mono,JetBrains Mono SemiBold
+JetBrains Mono,JetBrains Mono Thin
+JetBrains Mono NL
+JetBrains Mono NL,JetBrains Mono NL ExtraBold
+JetBrains Mono NL,JetBrains Mono NL ExtraLight
+JetBrains Mono NL,JetBrains Mono NL Light
+JetBrains Mono NL,JetBrains Mono NL Medium
+JetBrains Mono NL,JetBrains Mono NL SemiBold
+JetBrains Mono NL,JetBrains Mono NL Thin
+Noto Color Emoji

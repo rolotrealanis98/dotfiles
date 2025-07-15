@@ -1,0 +1,27 @@
+# Dotfiles management aliases
+alias dot='cd ~/dotfiles'
+alias dotup='~/dotfiles/scripts/update.sh'
+alias dotquick='~/dotfiles/scripts/quick-update.sh'
+alias dotbackup='~/dotfiles/scripts/backup.sh'
+alias dotstatus='cd ~/dotfiles && git status'
+
+# System update aliases
+alias sysup='sudo pacman -Syu'
+alias aursup='paru -Syu'
+alias allup='sudo pacman -Syu && paru -Syu'
+
+# Hyprland specific
+alias hypreload='hyprctl reload'
+alias hyprconf='nvim ~/.config/hypr/hyprland.conf'
+
+# Quick edits
+alias zshconf='nvim ~/.zshrc'
+alias bashconf='nvim ~/.bashrc'
+alias waybarconf='nvim ~/.config/waybar/config'
+
+# Git shortcuts
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit'
+alias gp='git push'
+alias gl='git log --oneline --graph'
