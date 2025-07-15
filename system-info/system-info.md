@@ -1,8 +1,8 @@
 # System Information
-Generated on: Tue Jul 15 11:34:45 AM EDT 2025
+Generated on: Tue Jul 15 11:54:42 AM EDT 2025
 
 ## Hardware
-- Hostname: 
+- Hostname: archrolo
 - Kernel: 6.15.6-arch1-1
 - Architecture: x86_64
 - CPU: Intel(R) Core(TM) i9-14900K

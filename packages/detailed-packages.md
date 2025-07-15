@@ -1,0 +1,49 @@
+# Arch Linux Package List
+# Generated on Tue Jul 15 11:54:42 AM EDT 2025
+
+## Explicitly Installed Packages
+
+- base: Minimal package set to define a basic Arch Linux installation
+- base-devel: Basic tools to build Arch Linux packages
+- brightnessctl: Lightweight brightness control tool
+- cava: Console-based Audio Visualizer with support for multiple backends
+- firefox: Fast, Private & Safe Web Browser
+- git: the fast distributed version control system
+- glfw: A free, open source, portable framework for graphical application development
+- grim: Screenshot utility for Wayland
+- hyprland: a highly customizable dynamic tiling Wayland compositor
+- keyd: A key remapping daemon for linux
+- kitty: A modern, hackable, featureful, OpenGL-based terminal emulator
+- linux: The Linux kernel and modules
+- linux-firmware: Firmware files for Linux - Default set
+- mako: Lightweight notification daemon for Wayland
+- nano: Pico editor clone with enhancements
+- nautilus: Default file manager for GNOME
+- networkmanager: Network connection manager and user applications
+- nfs-utils: Support programs for Network File Systems
+- noto-fonts-emoji: Google Noto Color Emoji font
+- openssh: SSH protocol implementation for remote login, command execution and file transfer
+- pamixer: Pulseaudio command-line mixer like amixer
+- pavucontrol: PulseAudio Volume Control
+- pipewire: Low-latency audio/video router and processor
+- pipewire-alsa: Low-latency audio/video router and processor - ALSA configuration
+- pipewire-jack: Low-latency audio/video router and processor - JACK replacement
+- pipewire-pulse: Low-latency audio/video router and processor - PulseAudio replacement
+- polkit-kde-agent: Daemon providing a polkit authentication UI for KDE
+- qt5-wayland: Provides APIs for Wayland
+- qt6-wayland: Provides APIs for Wayland
+- rofi-wayland: A window switcher, run dialog and dmenu replacement - fork with wayland support
+- sddm: QML based X11 and Wayland display manager
+- slurp: Select a region in a Wayland compositor
+- tailscale: A mesh VPN that makes it easy to connect your devices, wherever they are.
+- ttf-font-awesome: Iconic font designed for Bootstrap
+- ttf-jetbrains-mono: Typeface for developers, by JetBrains
+- waybar: Highly customizable Wayland bar for Sway and Wlroots based compositors
+- waybar-module-pacman-updates-git: Waybar module for Arch to show system updates available
+- wireplumber: Session / policy manager implementation for PipeWire
+- wl-clipboard: Command-line copy/paste utilities for Wayland
+- wofi: launcher for wlroots-based wayland compositors
+- xdg-desktop-portal-gtk: A backend implementation for xdg-desktop-portal using GTK
+- xdg-desktop-portal-hyprland: xdg-desktop-portal backend for hyprland
+- yay: Yet another yogurt. Pacman wrapper and AUR helper written in go.
+- yay-debug: Detached debugging symbols for yay
