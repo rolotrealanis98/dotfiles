@@ -33,6 +33,7 @@ slurp
 tailscale
 ttf-font-awesome
 ttf-jetbrains-mono
+ttf-jetbrains-mono-nerd
 waybar
 waybar-module-pacman-updates-git
 wireplumber

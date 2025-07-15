@@ -22,7 +22,6 @@ window {
     border-color: @border-col;
     border-radius: 10px;
     background-color: @bg-col;
-    animation: slideIn 0.3s ease-out;
 }
 
 mainbox {

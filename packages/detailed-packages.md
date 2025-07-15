@@ -1,5 +1,5 @@
 # Arch Linux Package List
-# Generated on Tue Jul 15 11:54:42 AM EDT 2025
+# Generated on Tue Jul 15 12:12:52 PM EDT 2025
 
 ## Explicitly Installed Packages
 
@@ -38,6 +38,7 @@
 - tailscale: A mesh VPN that makes it easy to connect your devices, wherever they are.
 - ttf-font-awesome: Iconic font designed for Bootstrap
 - ttf-jetbrains-mono: Typeface for developers, by JetBrains
+- ttf-jetbrains-mono-nerd: Patched font JetBrains Mono from nerd fonts library
 - waybar: Highly customizable Wayland bar for Sway and Wlroots based compositors
 - waybar-module-pacman-updates-git: Waybar module for Arch to show system updates available
 - wireplumber: Session / policy manager implementation for PipeWire

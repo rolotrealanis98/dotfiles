@@ -91,7 +91,7 @@ Sink #61
 		pcm
 
 Sink #62
-	State: SUSPENDED
+	State: RUNNING
 	Name: alsa_output.usb-Other_World_Computing_OWC_Thunderbolt_3_Audio_Device-00.analog-stereo
 	Description: OWC Thunderbolt 3 Audio Device Analog Stereo
 	Driver: PipeWire
@@ -154,6 +154,10 @@ Sink #62
 		library.name = "audioconvert/libspa-audioconvert"
 		object.id = "34"
 		object.serial = "62"
+		node.max-latency = "16384/48000"
+		api.alsa.period-size = "512"
+		api.alsa.period-num = "64"
+		api.alsa.headroom = "512"
 		api.acp.auto-port = "false"
 		api.acp.auto-profile = "false"
 		api.alsa.card = "2"
